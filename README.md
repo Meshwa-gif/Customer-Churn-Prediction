@@ -12,7 +12,7 @@ End-to-end churn prediction pipeline on **7,043 telecom customers** — SQL segm
 
 ## Project Preview
 
-![Customer Churn Prediction Overview](charts/page1_overview.jpg)
+![Customer Churn Prediction Overview](charts/Churn_Analysis_Page1.jpg)
 
 ---
 
@@ -34,7 +34,7 @@ End-to-end churn prediction pipeline on **7,043 telecom customers** — SQL segm
 ## Part 1 — SQL Segment Analysis
 
 ### Churn Rate by Contract Type
-![Tenure, Internet & Payment Analysis](charts/page2_tenure_internet_payment.jpg)
+![Tenure, Internet & Payment Analysis](charts/Churn_Analysis_Page2.jpg)
 
 | Contract Type | Churn Rate |
 |---------------|------------|
@@ -77,7 +77,7 @@ Fiber optic customers churn at 41.9% despite paying premium prices — suggestin
 ## Part 2 — Predictive ML Model
 
 ### Churn Distribution & Monthly Charges
-![Model ROC Curve & Distributions](charts/page3_model_roc_curve.jpg)
+![Model ROC Curve & Distributions](charts/Churn_Analysis_Page3.jpg)
 
 26.6% of customers churned overall. Churned customers pay **$74.44/month** on average vs **$61.31** for retained customers — higher bills strongly correlate with churn risk.
 
@@ -92,7 +92,7 @@ Fiber optic customers churn at 41.9% despite paying premium prices — suggestin
 Logistic Regression slightly outperformed Random Forest on this dataset — both scores indicate strong predictive power well above the 0.5 baseline of random guessing.
 
 ### Confusion Matrix — Logistic Regression
-![Confusion Matrix & Feature Importance](charts/page4_confusion_matrix_features.jpg)
+![Confusion Matrix & Feature Importance](charts/Churn_Analysis_Page4.jpg)
 
 |  | Predicted: Stayed | Predicted: Churned |
 |--|-------------------|--------------------|
@@ -121,7 +121,7 @@ TotalCharges, MonthlyCharges, tenure, and Contract type are the four strongest p
 ---
 
 ## Business Recommendations
-![Business Recommendations](charts/page5_recommendations.jpg)
+![Business Recommendations](charts/Churn_Analysis_Page5.jpg)
 
 **1. Convert month-to-month customers**
 Offer incentives (discounts, bundled services) to shift month-to-month customers (42.7% churn) toward 1–2 year contracts (2.8–11.3% churn).
